@@ -14,7 +14,7 @@ const Pricing = () => {
             start: "top 80%",
             end: "bottom 100%",
             onEnter: () => {
-                gsap.from(".pricingTitle", { opacity: 0, y: -20, delay: 1, stagger: 1 });
+                gsap.to(".pricingTitle", { opacity: 1, y: -20, delay: 1, stagger: 1 });
                 gsap.to(".pricingCard", { opacity: 1, y: -30, delay: 1.4, duration: .5, stagger: .5 });
             }
         });

@@ -26,7 +26,7 @@ gsap.registerPlugin(useGSAP);
 
     return (
         <section className='bg-gradient-to-t from-[#183EC2] to-[#EAEEFE] '>
-            <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center xl:w-[1400px] lg:w-[1000px] md:w-[700px] w-[400px] mx-auto mb-[50px] lg:pb-[100px] xl:pt-0 md:pt-[50px] py-[50px] gap-7">
+            <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center xl:w-[1400px] lg:w-[1000px] md:w-[700px] w-[350px] mx-auto mb-[50px] lg:pb-[100px] xl:pt-0 md:pt-[50px] py-[50px] gap-7">
                 <div className='xl:w-[40%] lg:text-left md:text-center text-center'>
                     <h1 className="text xl:text-[6rem] xl:leading-[100px] lg:text-[5rem] lg:leading-[80px] md:text-[4rem] leading-none text-[3rem] font-bold ">Pathway to productivity</h1>
                     <p className="text xl:text-[1.5rem] xl:my-[50px] md:text-[1.2rem] lg:my-[40px] my-[30px] text-[1rem] my:50px ">Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.</p>
@@ -39,7 +39,7 @@ gsap.registerPlugin(useGSAP);
                     </div>
                 </div>
                 <div className="relative">
-                    <img src={Vurtel} alt="Vurtel" className="Vurtel" />
+                    <img src={Vurtel} alt="Vurtel" className="Vurtel w-[250px] lg:w-auto" />
                     <img src={Cylinder} alt="Cylinder" className="Cylinder absolute top-[-20px] right-[90%] hidden lg:block" />
                     <img src={Torus} alt="Torus" className="Torus absolute bottom-[-220px] right-[-50px] hidden lg:block" />
                 </div>

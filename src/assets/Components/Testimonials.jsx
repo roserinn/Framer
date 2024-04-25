@@ -34,7 +34,7 @@ const Testimonials = () => {
         <section>
             <div className='TestimonialsSection xl:w-[1400px] lg:w-[1000px] md:w-[700px] w-[350px] mx-auto flex flex-col items-center justify-center md:py-[100px] py-[50px]'>
                 <p className="TestimonialsTitle text-[.8rem] border border-[#0000002f] rounded-lg py-1 px-3 mb-[10px]">Testimonials</p>
-                <h2 className="TestimonialsTitle text-[3rem] w-[600px] text-center leading-[60px] font-bold mb-[100px]">What our users say</h2>
+                <h2 className="TestimonialsTitle text-[2rem] text-center leading-[60px] font-bold mb-[100px]">What our users say</h2>
                 <div className="flex md:flex-row flex-col gap-[30px] TestimonialsRow">
                 
                     <div className='TestimonialsCard'>

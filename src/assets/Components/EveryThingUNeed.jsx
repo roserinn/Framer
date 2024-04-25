@@ -9,7 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 const EveryThingUNeed = () => {
-    
+
     gsap.registerPlugin(useGSAP);
     gsap.registerPlugin(ScrollTrigger);
 
@@ -19,7 +19,7 @@ const EveryThingUNeed = () => {
             start: "top 80%",
             end: "bottom 100%",
             onEnter: () => {
-                gsap.from(".everythingTitle", { opacity: 0, y: -20, delay: 1, stagger: 1 });
+                gsap.to(".everythingTitle", { opacity: 1, y: -20, delay: .5,});
                 gsap.to(".everythingCard", { opacity: 1, x: 0, delay: 1.4, duration: .5 });
             }
         });
